@@ -3,28 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps Project</title>
+    <title>DevOps Automated Deployment Pipeline</title>
 
     <style>
-        body {
+        * {
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #4A90E2;
-            font-family: Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
+            background: linear-gradient(135deg, #4A90E2, #1E3C72);
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 50px 70px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            color: white;
         }
 
         h1 {
-            color: white;
-            font-size: 36px;
-            text-align: center;
+            font-size: 42px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            color: #f1f1f1;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background-color: #FFD700;
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #FFC107;
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(255, 193, 7, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 30px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 18px;
+            }
         }
     </style>
 </head>
 
 <body>
-    <h1>Welcome to DevOps Automated Deployment Pipeline</h1>
+
+    <div class="container">
+        <h1>🚀 Welcome to DevOps Automated Deployment Pipeline</h1>
+
+        <p>
+            Continuous Integration • Continuous Deployment • Cloud Automation
+        </p>
+
+        <a href="#" class="btn">Get Started</a>
+    </div>
+
 </body>
 </html>
